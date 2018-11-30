@@ -1,0 +1,150 @@
+body {
+ 	margin:0px;
+	background-image: url("../assets/images/bodybackground.png");
+}
+
+.navbar {
+	border-bottom: #cccccc solid 2px;
+}
+
+.header2d {
+	max-width: 960px;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+}
+.navbar-header {
+	background-color: #4aaaa5;
+	height: 90px;
+	text-align: center;
+}
+
+#example-navbar-collapse a {
+	font-size: 16px;
+	position: relative;
+	top: 15px;
+}
+
+h1, h3{
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: 200;
+    color: #4aaaa5;
+}
+
+h2, h3{
+	font-size: 22px;
+}
+h1 {
+	padding-right: 10px;
+	padding-left: 10px;
+	
+}
+
+p {
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-size: 16px;
+}
+
+#logo {
+  color: white;
+  text-decoration: inherit;
+  font-size: 30px;
+}
+
+.link-unstyled:link {
+  color: #ffffff;
+  text-decoration: inherit;
+}
+
+.link-unstyled:hover {
+  color: #777777;
+  text-decoration: inherit;
+}
+
+#bio-image {
+	margin-right: 10px;
+	margin-bottom: 5px;
+	width: 200px;
+}
+
+.panel-default>.panel-heading {
+    color: #4aaaa5;
+    background-color: #fff;
+    border-color: #777777;
+}
+
+.panel-default {
+	border: white solid 15px;
+	color: #777777;
+    
+}
+
+.clear {
+	height: 126px; 
+}
+
+.footer {
+	clear: both;
+	height: 96px;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	margin-left: -150px;
+	text-align: center;
+}
+
+.footer small {
+	color: #ccc;
+	position: absolute;
+	top: 48px;
+}
+
+#image1 {
+	width: 264px;
+	height: 205.5px;
+}
+.imgHolder {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.imgHolder h3 {
+	width: 264px;
+	height: 40px;
+	background-color: #4aaaa5;
+	position: absolute;
+	top: 130px;
+	color: white;
+	line-height: 40px;
+    vertical-align: middle;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus 
+, .btn-primary:active:focus {
+    background: gray;
+    border-color: gray;
+}
+
+.portfolio li:last-child:nth-child(even) {
+	visibility: hidden;
+}
+
+@media (max-width:648px) {
+	.portfolio li:last-child:nth-child(even) {
+    display: none;
+	}
+
+	.panel {
+		min-width:260px;
+	}
+
+}
+
